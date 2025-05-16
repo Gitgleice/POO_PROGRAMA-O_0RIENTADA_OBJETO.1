@@ -1,0 +1,26 @@
+class Bicicleta:
+    # atributos da classe
+    def __init__(self, modelo, cor, ano):
+        self.modelo = modelo
+        self.cor = cor
+        self.ano = ano
+
+    # métodos da classe
+    def buzinar(self):
+        print("pam pam")
+
+    def pedalar(self):
+        print("Pedalando a bicicleta")
+
+    def parar(self):
+        print("Parando a bicicleta")
+
+    def correr(self):
+        print("Correndo com a bicicleta")
+
+b1 = Bicicleta('caloi', 'rosa', 2023)
+
+b1.buzinar()
+b1.pedalar()
+b1.parar()
+b1.correr()
